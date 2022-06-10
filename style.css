@@ -4,6 +4,7 @@ body{
     box-sizing: border-box;
     font-family: 'Josefin Sans', sans-serif;;
     max-width: 100%;
+    height: auto;
 }
 
 :root {
@@ -438,10 +439,31 @@ button:hover{
     cursor: pointer;
 }
 
+
+@media(max-width: 360px){
+
+    .title p{
+        font-size: 25px;
+    }
+}
+
+
+@media(min-width: 768px) {
+
+    .groupe1{
+        margin: 0;
+        text-align: center;
+    }
+
+    .title p{
+        font-size: 20px;
+    }
+}
+
 @media(min-width: 992px) {
 
     .parallax-1{
-        height: 4619px;
+        height: 4000px;
     }
 
     header {
@@ -569,10 +591,7 @@ button:hover{
         color: var(--text-color);
         font-size: 140%;
         padding: 0 5%;
-        border-top-right-radius: 15px;
-        border-bottom-right-radius: 15px;
-        border-bottom-left-radius: 0;
-        border-top-left-radius: 0;
+
     }
 
     .logo-desktop {
@@ -841,6 +860,10 @@ button:hover{
 
 @media(min-width: 1024px) {
 
+    .parallax-1{
+        height: 4000px;
+    }
+
     .groupe1{
         margin-left: auto;
         text-align: left;
@@ -849,25 +872,15 @@ button:hover{
         width: 32%;
     }
 }
-
-@media(min-width: 768px) {
-
-    .groupe1{
-        margin: 0;
-        text-align: center;
-    }
-
-    .title p{
-        font-size: 20px;
+@media(min-width: 1276px) {
+    .parallax-1{
+        height: 4300px;
     }
 }
 
-@media(max-width: 360px){
 
-    .title p{
-        font-size: 25px;
-    }
-}
+
+
 
 
 
