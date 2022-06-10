@@ -877,6 +877,11 @@ button:hover{
         height: 4300px;
     }
 }
+@media(min-width: 1500px) {
+    .parallax-1{
+        height: 5400px;
+    }
+}
 
 
 
